@@ -1,0 +1,140 @@
+@charset "utf-8";
+@import "lesslib.less";
+body {
+    .px2rem(padding-top, 442);
+    background-image: url("../images/banner-bg.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #fbe28b;
+}
+.wrap {
+    .px2rem(padding-left, 50);
+    .px2rem(padding-right, 50);
+}
+.phone-box {
+    .px2rem(margin-bottom, 56);
+}
+.wrap .phone-box:last-child {
+    margin-bottom: 0;
+}
+.phone-list {
+    .flex();
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.phone-title {
+    .px2rem(height, 98);
+    margin: 0 auto;
+    .px2rem(margin-bottom, 7);
+    background-image: url("../images/title_bg.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    text-align: center;
+    .px2px(font-size, 34);
+    color: #0059ab;
+    font-weight: 700;
+    .px2rem(line-height, 72);
+}
+.phone-item {
+    .px2rem(margin-bottom, 14);
+    .px2rem(border-radius, 10);
+    background-color: #0f6ec5;
+    .flex();
+}
+.phone-item-border {
+    .px2rem(width, 305);
+    .px2px(margin, 2);
+    .px2rem(border-radius, 10);
+    .px2rem(border-width, 6);
+    border-color: #71b4f1;
+    border-style: solid;
+    text-align: center;
+    .phone-img {
+        display: block;
+        margin: 0 auto;
+        .px2rem(height, 133);
+        -webkit-box-reflect: below 3px -webkit-linear-gradient(top,rgba(250,250,250,0),rgba(250,250,250,.0) 90%,rgba(250,250,250,0.3));
+        box-reflect: below 3px -webkit-linear-gradient(top,rgba(250,250,250,0),rgba(250,250,250,.0) 90%,rgba(250,250,250,0.3));
+    }
+}
+.phone-light {
+    .px2rem(top, -70);
+    left: 0;
+    width: 100%;
+}
+.phone-light .light {
+    width: 100%;
+}
+.phone-inf {
+    .px2rem(margin-top, 30);
+}
+.phone-name {
+    .px2px(font-size, 43);
+    color: #fff;
+    text-shadow: 0 2px #689bd6;
+    .px2rem(margin-top, 20);
+}
+.phone-name.font-38 {
+    .px2px(font-size, 38);
+}
+.phone-money {
+    color: #fef165;
+    .px2px(font-size, 40);
+    .px2rem(margin-top, 12);
+    .rmb-sym {
+        .px2px(font-size, 30);
+    }
+}
+.phone-gift {
+    .flex();
+    justify-content: center;
+    .px2px(font-size, 22);
+    color: #fff;
+    .px2rem(margin-top, 10);
+}
+.icon-gift {
+    .px2rem(width, 44);
+    .px2rem(width, 33);
+    background: url("../images/icon-zeng.png") no-repeat center;
+    background-size: 100%;
+    .px2rem(margin-right, 6);
+}
+.now-button {
+    .px2rem(width, 202);
+    .px2rem(height, 66);
+    .px2rem(line-height, 66);
+    margin: 0 auto;
+    .px2rem(margin-top, 10);
+    .px2rem(margin-bottom, 20);
+    .px2px(font-size, 26);
+    color: #ff3600;
+    background: url("../images/buy_btn.png") no-repeat center;
+
+}
+.popo {
+    bottom: 0;
+    .px2rem(bottom, 30);
+    .px2rem(right, 0);
+    .px2rem(width, 97);
+    .px2rem(height, 167);
+    background: url("../images/popo.png") no-repeat center;
+    background-size: 100%;
+    opacity: .3;
+}
+.goTop {
+    .px2rem(padding-top, 50);
+    .px2rem(padding-bottom, 50);
+    .px2px(font-size, 30);
+    color: #9f571d;
+    .flex();
+    justify-content: center;
+}
+.icon-top {
+    .px2rem(width, 32);
+    .px2rem(height, 32);
+    .px2rem(margin-right, 20);
+    background: url("../images/icon-top.png") no-repeat center;
+    background-size: 100% 100%;
+}
