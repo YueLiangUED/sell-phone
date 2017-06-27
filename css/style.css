@@ -281,6 +281,7 @@ body {
   padding-right: 0.66666667rem;
   line-height: 1.5;
   font-size: 14px;
+  color: #9f571d;
 }
 [data-dpr="2"] .tip {
   font-size: 28px;
@@ -297,6 +298,41 @@ body {
 [data-dpr="4"] .tip {
   font-size: 56px;
 }
-.tip p {
+p {
   margin-top: 0.13333333rem;
+  font-size: 13px;
+}
+[data-dpr="2"] p {
+  font-size: 26px;
+}
+[data-dpr="2.5"] p {
+  font-size: 33px;
+}
+[data-dpr="2.75"] p {
+  font-size: 36px;
+}
+[data-dpr="3"] p {
+  font-size: 39px;
+}
+[data-dpr="4"] p {
+  font-size: 52px;
+}
+.tip .tip-title {
+  text-align: center;
+  font-size: 15px;
+}
+[data-dpr="2"] .tip .tip-title {
+  font-size: 30px;
+}
+[data-dpr="2.5"] .tip .tip-title {
+  font-size: 38px;
+}
+[data-dpr="2.75"] .tip .tip-title {
+  font-size: 41px;
+}
+[data-dpr="3"] .tip .tip-title {
+  font-size: 45px;
+}
+[data-dpr="4"] .tip .tip-title {
+  font-size: 60px;
 }
